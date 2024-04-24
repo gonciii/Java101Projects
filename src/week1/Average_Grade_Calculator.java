@@ -9,7 +9,7 @@ Aynı program içerisinde koşullu ifadeler kullanılarak, eğer kullanıcının
 Not: Ternary Operator ya da Switch Case kullanarak yapılacak.
  */
 
-public class Not_Ortalamasi_Hesaplama {
+public class Average_Grade_Calculator {
     public static void main(String[] args) {
         // Değişkenleri oluştur :
         int mat,fizik,kimya,turkce,tarih,muzik;

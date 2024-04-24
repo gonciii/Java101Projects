@@ -3,7 +3,7 @@ package week1;
 // Eğer girilen tutar 0 ve 1000 TL arasında ise KDV oranı %18 , tutar 1000 TL'den büyük ise KDV oranını %8 olarak KDV tutarı hesaplayan programı yazınız.
 
 import java.util.Scanner;
-public class KDV_Tutari_Hesaplama {
+public class Tax_Calculator {
     public static void main(String[] args) {
         // Değişken tanımlama aşaması : :
         double tutar,kdvOrani,kdvTutari,kdvliTutar;
