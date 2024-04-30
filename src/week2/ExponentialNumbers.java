@@ -1,6 +1,6 @@
 package week2;
 
-//  Exponential Numbers Calculator
+//  Exponential Numbers :
 
 import java.util.Scanner;
 
