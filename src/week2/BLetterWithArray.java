@@ -23,7 +23,7 @@ public class BLetterWithArray {
                 }
             }
         }
-        // print to screen " B "
+        // - >> print to screen " B "
         for (String[] row : letter){
             for (String col : row){
                 System.out.print(col);
