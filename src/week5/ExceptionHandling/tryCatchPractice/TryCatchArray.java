@@ -25,7 +25,7 @@ public class TryCatchArray  {
         int index = scanner.nextInt();
 
 
-        try (scanner) {
+        try {
             index(index);
         } catch (ArrayIndexOutOfBoundsException a) {
             System.out.println("Exception : " + a);          // catch exception
