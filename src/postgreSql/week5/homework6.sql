@@ -18,7 +18,7 @@ WHERE title LIKE 'C%';
 -----------------------------------------------------------------------------------------
 --film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
 
-SELECT MAX(length) MAX_MINUTE
+SELECT MAX(length)  AS MAX_MINUTE
 FROM film
 WHERE rental_rate = 0.99;
 
