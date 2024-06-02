@@ -20,13 +20,18 @@ public class NotePad {
             String readerText = bufferedReader.readLine();
             bufferedReader.close();
 
+            if (readerText != null) {
+                System.out.println("Previous text : " + readerText);
+            } else {
+                System.out.println("Previous text is empty !");
+            }
+
             // notes.txt dosyasına metin yaz
             FileWriter fileWriter = new FileWriter(path);
             PrintWriter printWriter = new PrintWriter(fileWriter);
             printWriter.print(text);
             printWriter.close();
 
-            System.out.println("Previous text : " + readerText);
 
         }catch (IOException exception) {
             System.out.println("Exception Warning : " + exception.getMessage());
